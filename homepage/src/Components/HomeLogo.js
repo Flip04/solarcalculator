@@ -10,9 +10,8 @@ function HomeLogo() {
                 className="background-image"
                 style={{ backgroundImage: `url(${TEST})` }}
             >
-                {/* Das Hintergrundbild */}
                 <div className="icon-overlay">
-                    {/* Das Icon */}
+                   
                     <BiHeart className="heart-icon"/>
                 </div>
             </div>
