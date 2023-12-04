@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  background-color: #8CCFD8;
 }
 
 code {
@@ -32,6 +32,8 @@ code {
   font-size: 4rem; /* Passe die Größe des Icons an */
   color: red; /* Ändere die Farbe des Icons nach Bedarf */
 }
+
+
 
 
 
