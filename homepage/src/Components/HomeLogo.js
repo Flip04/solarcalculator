@@ -1,14 +1,14 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import TEST from '/Users/filipschepers/WebstormProjects/solarcalculator/homepage/src/TESTIMG/TESTBACK.jpeg';
-import { BiHeart } from 'react-icons/bi'; // Importiere das Icon
+import IMG from '/Users/filipschepers/WebstormProjects/solarcalculator/homepage/src/TESTIMG/Pictures/markus-spiske-pwFr_1SUXRo-unsplash.jpg';
+import { BiHeart } from 'react-icons/bi';
 
 function HomeLogo() {
     return (
         <Container fluid className="p-0 m-0 position-relative">
             <div
                 className="background-image"
-                style={{ backgroundImage: `url(${TEST})` }}
+                style={{ backgroundImage: `url(${IMG})` }}
             >
                 <div className="icon-overlay">
                    
