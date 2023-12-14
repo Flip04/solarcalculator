@@ -1,12 +1,12 @@
 import {Container, Row, Col, Image} from 'react-bootstrap';
-import TEST from '/Users/filipschepers/WebstormProjects/solarcalculator/homepage/src/TESTIMG/TESTIMG1.jpeg';
+import IMG from '/Users/filipschepers/WebstormProjects/solarcalculator/homepage/src/TESTIMG/Pictures/moritz-kindler-mRBywMReXH8-unsplash.jpg';
 
 function InformationComponent(){
     return(
         <Container className="mt-4 mb-4">
             <Row>
                 <Col md>
-                    <Image src={TEST} rounded/>
+                    <Image src={IMG} rounded style={{width: 768, height: 1024}}/>
                 </Col>
                 <Col md className="d-flex align-items-center">
                     <div>

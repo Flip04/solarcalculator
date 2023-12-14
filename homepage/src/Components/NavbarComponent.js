@@ -5,7 +5,7 @@ import React from "react";
 
 function NavbarComponent(props) {
     const [scrollPosition, setScrollPosition] = useState(0);
-    const changeNavbarColorOnScroll = 900; // Scroll-Position, ab der die Farbe geändert werden soll
+    const changeNavbarColorOnScroll = 900;
 
     useEffect(() => {
         const navbarHeight = document.querySelector('.navbar').offsetHeight;
@@ -27,9 +27,9 @@ function NavbarComponent(props) {
     useEffect(() => {
         const navbar = document.querySelector('.navbar');
         if (scrollPosition > changeNavbarColorOnScroll) {
-            navbar.style.backgroundColor = '#1E1E1E'; // Ändere hier die Farbe für die gescrollte Position
+            navbar.style.backgroundColor = '#1E1E1E';
         } else {
-            navbar.style.backgroundColor = 'rgba(0, 0, 0, 0.5)'; // Ändere hier die ursprüngliche Farbe
+            navbar.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
         }
     }, [scrollPosition]);
     return (
