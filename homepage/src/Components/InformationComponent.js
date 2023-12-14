@@ -3,10 +3,11 @@ import IMG from '/Users/filipschepers/WebstormProjects/solarcalculator/homepage/
 
 function InformationComponent(){
     return(
-        <Container className="mt-4 mb-4">
+        <section id="about">
+        <Container style={{marginTop: 100, marginBottom: 100}}>
             <Row>
                 <Col md>
-                    <Image src={IMG} rounded style={{width: 768, height: 1024}}/>
+                    <Image src={IMG} rounded style={{width: 500, height: 750}}/>
                 </Col>
                 <Col md className="d-flex align-items-center">
                     <div>
@@ -18,6 +19,7 @@ function InformationComponent(){
                 </Col>
             </Row>
         </Container>
+        </section>
     );
 }
 
